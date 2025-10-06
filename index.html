@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>BasketBall ScoreCard</h1>
+        <div style="display: flex; justify-content: space-around;">
+            <div class="container">
+                <h2>TEAM A</h2>
+                <h3 id="count-el">0</h3>
+                <button id="point1-btn" onclick="Point1()">+1 Points</button>
+                <button id="point2-btn" onclick="Point2()">+2 Points</button>
+                <button id="point3-btn" onclick="Point3()">+3 Points</button>
+                <button id="reset-btn" onclick="reset()">Reset</button>
+            </div>
+            <div class="container">
+                <h2>TEAM B</h2>
+                <h3 id="counter-el">0</h3>
+                <button id="point4-btn" onclick="Point4()">+1 Points</button>
+                <button id="point5-btn" onclick="Point5()">+2 Points</button>
+                <button id="point6-btn" onclick="Point6()">+3 Points</button>
+                <button id="rest-btn" onclick="rest()">Reset</button>
+            </div>
+        </div>
+        <script src="scorecard.js"></script>
+    </body>
+</html>

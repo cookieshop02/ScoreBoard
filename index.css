@@ -1,0 +1,69 @@
+body {
+    background-image: url("333.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.container {
+    background: rgb(240, 134, 134);
+    max-width: 50%;
+    max-height: 80%;
+    margin: auto;
+    border: 5px solid rgb(14, 13, 13);
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border:1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#point1-btn{
+    background: darkred;
+}
+#point2-btn{
+    background: darkred;
+}
+#point3-btn{
+    background: darkred;
+}
+
+#reset-btn {
+    background: darkgreen;
+}
+#point4-btn{
+    background: darkred;
+}
+#point5-btn{
+    background: darkred;
+}
+#point6-btn{
+    background: darkred;
+}
+
+#rest-btn {
+    background: darkgreen;
+}
